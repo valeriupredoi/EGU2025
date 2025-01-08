@@ -1,0 +1,24 @@
+Title: Reliable and reproducible Earth System Model data analysis with ESMValTool
+Authors: Valeriu Predoi for the ESMValTool development team
+Session: https://meetingorganizer.copernicus.org/EGU25/session/52077
+
+Abstract
+
+ESMValTool is a software tool for analyzing data produced by Earth System Models (ESMs) in a reliable and
+reproducible way. It provides a large and diverse collection of “recipes” that reproduce standard, as well as
+state-of-the-art analyses. ESMValTool can be used for tasks ranging from monitoring continuously running ESM
+simulations to analysis for scientific publications such as the IPCC reports, including reproducing results from
+previously published scientific articles as well as allowing scientists to produce new analysis results.
+
+Software reliability and reproducibility is of the essence for ESMValTool. Our main strategy for ensuring reliability
+is modular, integrated, and tested design. This comes back at various levels of the tool. We try to separate commonly
+used functionality from “one off” code, and make sure that commonly used functionality is covered by unit and integration
+tests, while we rely on regression testing for everything else. We also use comprehensive end-to-end testing for all
+our “recipes” before we release new versions. Here we describe the testing infrastructure for both ESMValCore, the autonomous
+computational engine framework that runs the analyses provided by ESMValTool, and for the package comprising
+scientific diagnostics and metrics. Our testing infrastructure ranges from basic unit tests to tools that smartly handle
+various file formats, and use image comparison algorithms to compare figures. This greatly reduces the need for ‘human testing’,
+allowing for built-in robustness through modularity, and a testing strategy that has been tailored to match the technical
+skills of its contributors.
+
+Abstract specifications: 242 words, 1638 characters
