@@ -24,7 +24,7 @@ installing from source from GitHub.
 In terms of input data, ESMValTool integrates well with the Earth System Grid Federation (ESGF) infrastructure.
 It can find, download and access data from across the federation, and has access to large pools of observational datasets.
 
-ESMValTool is built around two key scientific software metrics: scalability - ESMValTool
+ESMValTool is built around two key scientific software metrics: scalability and user friendliness. An important aspect of user friendliness is reliability. ESMValTool
 is built on top of the Dask library to allow scalable and distributed computing, ESMValTool also uses parallelism
 at a higher level in the stack, so that jobs can be distributed on any standard High Performance Computing (HPC) facility;
 and software reliability and reproducibility - our main strategy to ensure reliability is modular, integrated, and tested design.
