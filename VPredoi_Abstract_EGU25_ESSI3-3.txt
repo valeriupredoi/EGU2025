@@ -10,15 +10,35 @@ state-of-the-art analyses. ESMValTool can be used for tasks ranging from monitor
 simulations to analysis for scientific publications such as the IPCC reports, including reproducing results from
 previously published scientific articles as well as allowing scientists to produce new analysis results.
 
-Software reliability and reproducibility is of the essence for ESMValTool. Our main strategy for ensuring reliability
-is modular, integrated, and tested design. This comes back at various levels of the tool. We try to separate commonly
-used functionality from “one off” code, and make sure that commonly used functionality is covered by unit and integration
-tests, while we rely on regression testing for everything else. We also use comprehensive end-to-end testing for all
-our “recipes” before we release new versions. Here we describe the testing infrastructure for both ESMValCore, the autonomous
-computational engine framework that runs the analyses provided by ESMValTool, and for the package comprising
-scientific diagnostics and metrics. Our testing infrastructure ranges from basic unit tests to tools that smartly handle
-various file formats, and use image comparison algorithms to compare figures. This greatly reduces the need for ‘human testing’,
-allowing for built-in robustness through modularity, and a testing strategy that has been tailored to match the technical
+To make ESMValTool a user-friendly community tool suitable for doing open science, it adheres to the FAIR
+principles for research software. It is:
+
+- Findable - it is published in community registries, such
+as https://research-software-directory.org/software/esmvaltool;
+- Accessible - it can be installed from Python package community distribution channels such as conda-forge,
+and the open-source code is available on Zenodo with a DOI, and on GitHub;
+- Interoperable - it is based on standards: it works with data that follows CF
+Conventions and the Coupled Model Intercomparison Project (CMIP) Data Request, its reusable recipes are written
+in YAML, and provenance is recorded in the W3C PROV format. It supports diagnostics written in a number of
+programming language, with Python and R being best supported. Its source code follows the standards and best
+practices for the respective programming languages;
+- Reusable - it provides a well documented recipe format and Python API that allow reusing previous analyses
+and building new analysis with previously developed components. Also, the software can be installed from
+conda-forge and DockerHub and can be tailored by installing from source from GitHub.
+
+In terms of input data, ESMValTool integrates well with the Earth System Grid Federation (ESGF) infrastructure.
+It can find, download and access data from across the federation, and has access to large pools of observational datasets.
+
+ESMValTool is built around two key scientific software metrics: scalability and user friendliness. An important aspect of user friendliness is reliability. ESMValTool is built on top of the Dask library to allow scalable and distributed computing, ESMValTool also uses parallelism
+at a higher level in the stack, so that jobs can be distributed on any standard High Performance Computing (HPC) facility;
+and software reliability and reproducibility - our main strategy to ensure reliability is modular, integrated, and tested design.
+This comes back at various levels of the tool. We try to separate commonly used functionality from “one off” code, and make sure
+that commonly used functionality is covered by unit and integration tests, while we rely on regression testing for everything else.
+We also use comprehensive end-to-end testing for all our “recipes” before we release new versions.
+
+Our testing infrastructure ranges from basic unit tests to tools that smartly handle various file formats, and use image
+comparison algorithms to compare figures. This greatly reduces the need for ‘human testing’, allowing for built-in robustness
+through modularity, and a testing strategy that has been tailored to match the technical
 skills of its contributors.
 
-Abstract specifications: 242 words, 1638 characters
+Abstract specifications: 488 words, 3216 characters
