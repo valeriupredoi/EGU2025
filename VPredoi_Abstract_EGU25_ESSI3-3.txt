@@ -10,7 +10,7 @@ state-of-the-art analyses. ESMValTool can be used for tasks ranging from monitor
 simulations to analysis for scientific publications such as the IPCC reports, including reproducing results from
 previously published scientific articles as well as allowing scientists to produce new analysis results.
 
-ESMValTool is FAIR research software because it is: Findable - it is published in community registries, such
+To make ESMValTool a user-friendly community tool suitable for doing open science, it adheres to the FAIR principles for research software. It is: Findable - it is published in community registries, such
 as https://research-software-directory.org/software/esmvaltool; Accessible - it can be installed from
 Python package community distribution channels such as conda-forge, and the open-source code is available on
 Zenodo with a DOI, and on GitHub; Interoperable - it is based on standards: it works with data that follows CF
