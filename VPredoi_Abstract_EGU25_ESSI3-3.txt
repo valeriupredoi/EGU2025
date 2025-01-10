@@ -16,7 +16,7 @@ Python package community distribution channels such as conda-forge, and the open
 Zenodo with a DOI, and on GitHub; Interoperable - it is based on standards: it works with data that follows CF
 Conventions and the Coupled Model Intercomparison Project (CMIP) Data Request, its reusable recipes are written in YAML, and provenance is recorded in the
 W3C PROV format. It supports diagnostics written in a number of programming language, with Python and R being best supported.
-(with source code following the standards and best practices for the respective programming languages); Reusable - it provides
+Its source code follows the standards and best practices for the respective programming languages; Reusable - it provides
 a well documented recipe format and Python API that allow reusing previous analyses and building new analysis with
 previously developed components. Also, the software can be installed from conda-forge and DockerHub and can be tailored by
 installing from source from GitHub.
