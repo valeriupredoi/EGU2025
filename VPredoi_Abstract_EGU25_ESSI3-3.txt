@@ -21,3 +21,4 @@ ESMValTool is built around two key scientific software metrics: scalability and 
 Our testing infrastructure ranges from basic unit tests to tools that smartly handle various file formats, and use image comparison algorithms to compare figures. This greatly reduces the need for ‘human testing’, allowing for built-in robustness through modularity, and a testing strategy that has been tailored to match the technical skills of its contributors.
 
 Abstract specifications: 488 words, 3216 characters
+Abstract submitted 13 January 2025
