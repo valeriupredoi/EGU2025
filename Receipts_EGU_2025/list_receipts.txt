@@ -1,19 +1,19 @@
-R0_RailAir_27Apr_36GBP              = 36.0 GBP
-R1_DinnerSnack_3May_12EUR           = 10.0 GBP
-R2_Lunch_3May_16-30EUR              = 13.5 GBP
-R3_ViennaAirpTrain_3May_17-30EUR    = 14.4 GBP
-R4_Dinner_2May_31EUR                = 25.7 GBP
-R5_Lunch_2May_6-10EUR               =  5.1 GBP
-R6_Dinner_1May_23-80EUR             = 19.0 GBP
-R8_Water_1May_6-60EUR               =  5.5 GBP
-R9_Lunch_1May_10-35EUR              =  8.6 GBP
-R10_Lunch_30Apr_6-10EUR             =  5.1 GBP
-R11_Dinner_29Apr_13-90EUR           = 11.5 GBP
-R12_Lunch_29Apr_6-75EUR             =  5.6 GBP
-R13_Dinner_28Apr_25-50EUR           = 21.2 GBP
-R14_Lunch_27Apr_11-90EUR            = 10.0 GBP
-R15_Dinner_27Apr_16-00EUR           = 13.3 GBP
-R16_ViennaAirpTrain_27Apr_4-50EUR   =  3.7 GBP
+R0_RailAir_27Apr_36GBP=36.0GBP
+R1_DinnerSnack_3May_12EUR=10.0GBP
+R2_Lunch_3May_16-30EUR=13.5GBP
+R3_ViennaAirpTrain_3May_17-30EUR=14.4GBP
+R4_Dinner_2May_31EUR=25.7GBP
+R5_Lunch_2May_6-10EUR=5.1GBP
+R6_Dinner_1May_23-80EUR=19.0GBP
+R8_Water_1May_6-60EUR=5.5GBP
+R9_Lunch_1May_10-35EUR=8.6GBP
+R10_Lunch_30Apr_6-10EUR=5.1GBP
+R11_Dinner_29Apr_13-90EUR=11.5GBP
+R12_Lunch_29Apr_6-75EUR=5.6GBP
+R13_Dinner_28Apr_25-50EUR=21.2GBP
+R14_Lunch_27Apr_11-90EUR=10.0GBP
+R15_Dinner_27Apr_16-00EUR=13.3GBP
+R16_ViennaAirpTrain_27Apr_4-50EUR=3.7GBP
 ==============================================
 TOTAL EUR: 208.1 EUR x 0.83 = 172.7 GBP
 TOTAL GBP: 36 GBP
